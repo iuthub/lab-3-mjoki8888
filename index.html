@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+   
+   <head>
+   
+      <meta charset="utf-8">
+       <!-- no cache headers -->
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="no-cache">
+	<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<!-- end no cache headers -->
+      <meta name="robots" content="noodp"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta name="theme-color" content="#000000">
+	  <meta name="msapplication-navbutton-color" content="#000000">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+      <meta name="theme-color" content="#000000">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <meta name="keywords" content="Pixlz, Blog, HTML, CSS,  JavaScript, Game, App">
+      <meta name="description" content="Welcome To Pixlz! We provide web and app based services and also we help out young budding developers.">
+      <title>Tweak</title>
+      <link rel="shortcut icon" href="assets/images/icons/favicon.png">
+      <link href="CSS/google.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="CSS/app.css">
+      <link rel="stylesheet" type="text/css" href="CSS/default.css">
+   </head>
+   <body>
+
+      <style type="text/css">
+@media screen and (max-width: 600px) {
+
+   #tweak{
+   margin-top: -10px;
+   }
+
+}
+
+.loader{height:100%;width:100%}
+.loader .l_main{position:absolute;top:50%;left:50%;width:172px;height:128px;margin:0;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+@media (max-width:550px){.loader{-webkit-transform:scale(0.75);transform:scale(0.75)}}
+@media (max-width:440px){.loader{-webkit-transform:scale(0.5);transform:scale(0.5)}}
+.l_square{position:relative}
+.l_square:nth-child(1){margin-left:0px}
+.l_square:nth-child(2){margin-left:44px}
+.l_square:nth-child(3){margin-left:88px}
+.l_square:nth-child(4){margin-left:132px}
+.l_square span{position:absolute;top:0px;left:20px;height:36px;width:36px;border-radius:2px;background-color:#FFFFFF}
+.l_square span:nth-child(1){top:0px}
+.l_square span:nth-child(2){top:44px}
+.l_square span:nth-child(3){top:88px}
+.l_square:nth-child(1) span{-webkit-animation:animsquare1 2s infinite ease-in;animation:animsquare1 2s infinite ease-in}
+.l_square:nth-child(2) span{-webkit-animation:animsquare2 2s infinite ease-in;animation:animsquare2 2s infinite ease-in}
+.l_square:nth-child(3) span{-webkit-animation:animsquare3 2s infinite ease-in;animation:animsquare3 2s infinite ease-in}
+.l_square:nth-child(4) span{-webkit-animation:animsquare4 2s infinite ease-in;animation:animsquare4 2s infinite ease-in}
+.l_square span:nth-child(1){-webkit-animation-delay:0.00s;animation-delay:0.00s}
+.l_square span:nth-child(2){-webkit-animation-delay:0.15s;animation-delay:0.15s}
+.l_square span:nth-child(3){-webkit-animation-delay:0.30s;animation-delay:0.30s}
+@-webkit-keyframes animsquare1{0%,5%,95%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}30%,70%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+@keyframes animsquare1{0%,5%,95%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}30%,70%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+@-webkit-keyframes animsquare2{0%,10%,90%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}35%,65%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+@keyframes animsquare2{0%,10%,90%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}35%,65%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+@-webkit-keyframes animsquare3{0%,15%,85%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}40%,60%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+@keyframes animsquare3{0%,15%,85%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}40%,60%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+@-webkit-keyframes animsquare4{0%,20%,80%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}45%,55%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+@keyframes animsquare4{0%,20%,80%,100%{-webkit-transform:translate(0px,0px) rotate(0deg);transform:translate(0px,0px) rotate(0deg)}45%,55%{-webkit-transform:translate(-40px,0px) rotate(-90deg);transform:translate(-40px,0px) rotate(-90deg)}}
+
+</style>
+      <div id="page-loader">
+         <div class="container-mid">
+            <div class="loader">
+               <div class="l_main">
+                 <div class="l_square"><span></span><span></span><span></span></div>
+                 <div class="l_square"><span></span><span></span><span></span></div>
+                 <div class="l_square"><span></span><span></span><span></span></div>
+                 <div class="l_square"><span></span><span></span><span></span></div>
+               </div>
+            </div> 
+         </div>
+      </div>
+      <div id="main">
+
+         <section id="hero" class="hero hero-2">
+            <div class="front-content page-enter-animated">
+               <div class="container-mid">
+                  <div class="inner 3d-hover">
+                     <img class="img-responsive logo" src="whiteTweak.png" alt="logo"> 
+                     <p>Tweak</p>
+                  </div>
+
+               </div>
+
+               <div class="scroll-down"></div>
+
+               <div class="controls"> <i class="volume-button fa fa-volume-up"></i> <i class="pause-button ti-control-pause"></i> </div>
+            </div>
+
+            <div class="background-content page-enter-animated">
+               <div class="level-1">
+                  <div class="bg-overlay"></div>
+                  <div class="bg-pattern"></div>
+                  <div id="canvas">
+                     <canvas class="bg-effect layer" data-depth="0.2"></canvas>
+                  </div>
+               </div>
+               <div class="level-2">
+                  <div class="dzsparallaxer auto-init allbody" data-options="{mode_scroll: 'fromtop', animation_duration: '2' , direction: 'reverse'}">
+                     <div class="dzsparallaxer--target">
+                        <div class="bg-image layer" data-depth="0.04"></div>
+                        <div class="bg-video layer" data-depth="0.04"></div>
+                        <div class="bg-color layer" data-depth="0.04"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <nav class="navigation-main">
+            <div class="container">
+               <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"> <span class="ti-menu"></span> </button> <a class="navbar-brand" href="#"> <h1 id="tweak" style="color:black;line-height:1.5em;">Tweak</h1> </a> </div>
+               <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="navigation-items nav navbar-nav navbar-right">
+                     <li> <a class="phantom" href="#hero">Home</a> </li>
+                     <li> <a href="#about">О нас</a> </li>
+                     <li> <a href="#service">Услуги</a> </li>
+                     <li> <a href="#process">Процесс работы</a> </li>
+                     <li> <a href="#team">Портфолио</a> </li>
+                     <li> <a href="#contact">Контакты</a> </li>
+                  </ul>
+               </div>
+
+         </nav>
+         <section id="about">
+            <div class="content bg-white block-about-1 padding-top-140 padding-bot-130">
+               <div class="container text-left">
+                  <div class="header text-center scroll-animated-from-bottom">
+                     <h1>О нас</h1>
+                  </div>
+                  <div class="row padding-top-50">
+                     <div class="col-sm-6">
+                        <img class="img-responsive scroll-animated-from-bottom" src="1.jpg" alt="image"> 
+                    
+                     </div>
+                     <div class="col-sm-6">
+                        <h3 class="scroll-animated-from-bottom"> Мы создаем основу для вашего <br>цифровое будущее<br></h3>
+                        <p class="scroll-animated-from-bottom"> Мы группа свежих молодых людей со страстью. Страсть к тому, чтобы воплотить в жизнь ваши цифровые мечты: телеграм ботов и веб сайты для развития своего бизнеса. <br>  Вы хотите телеграм ботов, которые бросаются в глаза или веб-страницы, которые привлекают интересы людей? Мы работаем над тем, чтобы это произошло.  </p>
+                   
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="service">
+            <div class="content bg-black bg-parallax block-service-1 padding-top-130 padding-bot-200">
+               <div class="container">
+                  <div class="header text-center">
+                     <h1>Услуги</h1>
+                  </div>
+				  
+                  <ul class="tab-navigation clearfix">
+				
+				   <li class="active scroll-animated-from-bottom"> <a href="#service-data-1" data-toggle="tab"> <span class="ti-layers"></span>Разработка Телеграм Ботов </a> </li>
+                    
+                     <!-- /ITEM --> 
+					 
+                     <li class="scroll-animated-from-bottom"> <a href="#service-data-2" data-toggle="tab"> <span class="ti-world"></span>Создание сайтов</a> </li>
+                     <li class="scroll-animated-from-bottom"> <a href="#service-data-3" data-toggle="tab"> <span class="ti-thumb-up"></span>Дизайн проектов</a> </li>
+                     
+                  </ul>
+                  <div class="tab-content scroll-animated-from-bottom">
+                     <div class="tab-pane fade in active" id="service-data-1">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <h4>Боты<br>на сегодняшний день<br>телеграмом пользуются много людей</h4>
+                           </div>
+                           <div class="col-md-8">
+                              <p> В наши дни нам нужен бот для всего, будь то социальные сети, рестораны, здравоохранение, спорт, образование и т.д. , Tweak намерен предоставить вам бот высшего качества с простотой использования благодаря новейшим технологиям!</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="service-data-2">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <h4>Представьте, <br> что вы делаете сквозь <br> глаза людей. </h4>
+                           </div>
+                           <div class="col-md-8">
+                              <p> Скучные сайты? Ожидания не оправдались? Мы в Tweak предоставляем веб-сайты, основанные на новейших технологиях, и мы поддерживаем веб-сайты с самого начала, чтобы вы могли видеть полную разработку веб-сайта в реальном времени. Таким образом, благодаря интуитивно понятному дизайну мы даем пользователям новые суперспособности.</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="service-data-3">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <h4>Направление дизайна для бизнеса.<br>Поднимите свой бизнес на новый уровень.<br>Мы помогаем создавать отличные впечатления.</h4>
+                           </div>
+                           <div class="col-md-8">
+                              <p> Здесь, в Tweak, мы делаем все возможное, чтобы помочь вам с вашим графическим и цифровым дизайном, чтобы удивительность достигла вас с помощью искусства </p>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div class="dzsparallaxer auto-init do-not-set-js-height" data-options="{mode_scroll: 'normal', animation_duration: '0' , direction: 'reverse'}">
+                  <div class="divimage dzsparallaxer--target" style="background-image: url(wall/1.jpg)"></div>
+                  <div class="bg-overlay-section"></div>
+               </div>
+            </div>
+         </section>
+         <section id="process">
+            <div class="content bg-black bg-parallax block-process-1 padding-top-130 padding-bot-180">
+               <div class="container">
+                  <div class="header text-center scroll-animated-from-bottom">
+                     <h1> Процесс работы </h1>
+                  </div> 
+                  <div class="slider-container scroll-animated-from-bottom">
+                     <div class="slider-process cbp cbp-slider-edge pagination-top pagination-custom-1">
+                        <div class="cbp-item">
+                           <img class="img-responsive" src="4.jpg" alt="showcase"> 
+                           <div class="process-info-box active">
+                              <h4>1. План</h4>
+                              <p>Каждый успешный продукт требует правильного плана, верно? Мы планируем все вместе с закусками и попкорном.</p>
+                           </div>
+                        </div>
+                        <div class="cbp-item">
+                           <img class="img-responsive" src="5.jpg" alt="showcase"> 
+                           <div class="process-info-box active">
+                              <h4>2. Создаем </h4>
+                              <p>Мы строим с использованием новейших технологий. Вы увидите его вживую, как мы его построим.</p>
+                           </div>
+                        </div>
+                        <div class="cbp-item">
+                           <img class="img-responsive" src="6.jpg" alt="showcase"> 
+                           <div class="process-info-box active">
+                              <h4>3. Запуск</h4>
+                              <p>Запустите стартовое мероприятие для широкой рекламы продукта. Удивительные продукты заслуживают некоторой рекламы, не так ли?</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="dzsparallaxer auto-init do-not-set-js-height" data-options="{mode_scroll: 'normal', animation_duration: '0' , direction: 'reverse'}">
+                  <div class="divimage dzsparallaxer--target" style="background-image: url(wall/2.jpg)"></div>
+                  <div class="bg-overlay-section"></div>
+               </div>
+            </div>
+         </section>
+         <section id="team">
+            <div class="content bg-white block-team-1 padding-top-140 padding-bot-160" >
+               <div class="container">
+                  <div class="header text-center scroll-animated-from-bottom">
+                     <h1>Портфолио <br> <br> Телеграм боты </h1>
+                  </div>
+                  <div class="slider-container scroll-animated-from-bottom">
+                     <div class="slider-team cbp cbp-slider-edge pagination-top pagination-custom-1">
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="les.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"><a href="https://t.me/LesAilesBestBot">@LesAilesBestBot</a></h5>
+                        <p class="hover-animated">Телеграм бот для компании Les Ailes</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="stuzzico.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"><a href="https://t.me/Stuzzico_UzBot">@Stuzzico_UzBot</a></h5>
+                        <p class="hover-animated">Телеграм бот для компании Stuzzico</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="yapona.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="https://t.me/Yapona_bot">@Yapona_bot</a></h5>
+                        <p class="hover-animated">Телеграм бот для компании Yapona Mama</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="evos.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="https://t.me/evos_bot"> @evos_bot </a></h5>
+                        <p class="hover-animated">Телеграм бот для компании Evos</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="nbu.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="https://t.me/nbu_uzbot"> @nbu_uzbot </a></h5>
+                        <p class="hover-animated">Телеграм бот для компании NBU</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="street77.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="https://t.me/str77bot"> @str77bot </a></h5>
+                        <p class="hover-animated">Телеграм бот для компании Street</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="wok.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="https://t.me/wokuzb_bot"> @wokuzb_bot </a></h5>
+                        <p class="hover-animated">Телеграм бот для компании WOK</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="airclub.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="https://t.me/AirClubBot"> @AirClubBot </a></h5>
+                        <p class="hover-animated">Телеграм бот для компании AirClub</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="knauf.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="https://t.me/knaufuz_bot"> @knaufuz_bot </a></h5>
+                        <p class="hover-animated">Телеграм бот для компании Knauf</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+
+         <section id="team">
+            <div class="content bg-white block-team-1 padding-top-140 padding-bot-160">
+               <div class="container">
+                  <div class="header text-center scroll-animated-from-bottom">
+                     <h1> Сайты </h1>
+                  </div>
+                  <div class="slider-container scroll-animated-from-bottom">
+                     <div class="slider-team cbp cbp-slider-edge pagination-top pagination-custom-1">
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="tweak.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="#">tweak.uz</a></h5>
+                        <p class="hover-animated"> Сайт для компании Tweak</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="stuzzico.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated"> <a href="#">www.stuzzico.uz</a> </h5>
+                        <p class="hover-animated">Сайт для компании Stuzzico</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                        <div class="cbp-item">
+                        <div class="cbp-caption">
+                        <div class="cbp-caption-defaultWrap"> <img src="tweak.jpg" alt="showcase"/> </div>
+                        <div class="cbp-caption-activeWrap">
+                        <div class="cbp-l-caption-alignCenter">
+                        <div class="cbp-l-caption-body">
+                        <h5 class="hover-animated">www.tweak.uz</h5>
+                        <p class="hover-animated"> Сайт для компании Tweak</p>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+
+
+               <div class="container our-skills padding-top-100">
+                  <div class="row">
+                     <div class="col-md-5">
+                        <h4 class="scroll-animated-from-bottom">Что мы умеем?</h4>
+                        <p class="scroll-animated-from-bottom">Мы разрабатываем с использованием новейших технологий, таких как Java, SQL, Python, NODEJS, Bootstrap, Photoshop CC, Adobe After Effects, и других. Мы постоянно обновляем себя, чтобы мы могли эффективно и элегантно построить ваш продукт. </p>
+                     </div>
+                     <div class="col-md-7">
+                        <h5 class="scroll-animated-from-bottom">Desing</h5>
+                        <div class="progress scroll-animated-from-bottom">
+                           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100 %</span> </div>
+                        </div>
+                        <h5 class="scroll-animated-from-bottom">Frontend</h5>
+                        <div class="progress scroll-animated-from-bottom">
+                           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100 %</span> </div>
+                        </div>
+                        <h5 class="scroll-animated-from-bottom">Backend</h5>
+                        <div class="progress scroll-animated-from-bottom">
+                           <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"> <span>100%</span> </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="contact">
+            <div class="content bg-white block-contact-1 padding-top-130">
+               <div class="container">
+                  <div class="header text-center scroll-animated-from-bottom">
+                     <h1>Контакты</h1>
+                  </div>
+                  <div class="row">
+                     <ul class="tab-navigation clearfix scroll-animated-from-bottom">
+                        <li class="active"> <a href="#contact-data-1" data-toggle="tab"> <span class="ti-comment-alt"></span>Связаться с нами</a> </li>
+                        <li> <a href="#contact-data-2" data-toggle="tab"> <span class="ti-map"></span>Посетить нас</a> </li>
+                        <li> <a href="#contact-data-3" data-toggle="tab"> <span class="ti-vector"></span>Следите за нами </a> </li>
+                     </ul>
+                  </div>
+                  <div class="tab-content">
+                     <div class="tab-pane fade in active" id="contact-data-1">
+                        <form id="contact-form" action="" method="post" autocomplete="off">
+
+                        <div class="container-info row">
+                           <div class="col-md-6" style="text-align: center;">
+                            <div class="ti-mobile" style="font-size: 25px;">Телефон</div>
+                            <br>
+                            <div style="font-size: 25px;">
+                              <div>Павел - +998974444808</div>
+                              <div>Вильдан - +998971554331 </div> 
+                              <div>Джавохир - +998935288888 </div>
+                              <div> Телеграм - @tweakuz</div>
+                           </div>
+                           </div> 
+                           <div class="col-md-6" style="text-align: center;" >
+                            <div class="ti-map" style="font-size: 25px;">Адрес</div>
+                            <div style="font-size: 25px;">4Б, Улица М.Улугбека <br>Ташкент, Узбекистан 100000</div>
+                           </div>
+                        </div>
+                           
+                        </form>
+                     </div>
+                     <div class="tab-pane fade" id="contact-data-2">
+                        <div class="map-wrapper">
+                           <div id="map"></div>
+                           <div class="button-description">
+                              <div class="content-visible"> <span class="ti-info"></span> </div>
+                              <div class="content-hidden"> <span class="ti-close"></span> </div>
+                           </div>
+
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="contact-data-3">
+                        <div class="row">
+                           <div class="col-xs-4">
+                              <div class="container-social-item">
+                                 <div class="container-icon"> <span class="ti-facebook"></span> </div>
+                                 <div class="container-description">
+                                    <a href="https://www.facebook.com/" target="_blank">
+                                       <h5>Facebook<span class="ti-new-window"></span></h5>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                        <div class="col-xs-4">
+                              <div class="container-social-item">
+                                 <div class="container-icon"> <span class="ti-instagram"></span> </div>
+                                 <div class="container-description">
+                                    <a href="https://www.instagram.com/" target="_blank">
+                                       <h5>Instagram<span class="ti-new-window"></span></h5>
+                                    </a>
+                                 </div>
+                              </div>
+                           </div>
+                          <div class="col-xs-4">
+                              <div class="container-social-item">
+                                 <div class="container-icon"> <span class="ti-youtube"></span> </div>
+                                 <div class="container-description">
+                                    <a href="https://www.youtube.com/" target="_blank">
+                                       <h5>Youtube<span class="ti-new-window"></span></h5>
+                                    </a>
+                                 </div>
+                              </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+	  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89431514-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+      <script type="text/javascript" src="JS/app.js"></script> 
+	  
+   </body>
+  
+</html>
